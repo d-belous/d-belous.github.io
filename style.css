@@ -1,9 +1,42 @@
+/* Basic Page Setup */
 body {
-    font-family: sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* The Top Panel Styling */
+.navbar {
+    background-color: #333; /* Dark Grey */
+    overflow: hidden;
+    position: sticky;       /* Keeps the bar at the top when you scroll */
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling the links inside the bar */
+.navbar a {
+    display: block;
+    color: white;
     text-align: center;
-    padding: 50px;
+    padding: 14px 20px;
+    text-decoration: none; /* Removes the underline */
+    font-weight: bold;
 }
-h1 {
-    color: #333;
+
+/* Change color when you hover over links */
+.navbar a:hover {
+    background-color: #555;
+    color: #00d4ff;
 }
+
+/* Spacing for the content below the bar */
+h1, h2, p {
+    padding: 20px;
+    text-align: center;
+}
+
