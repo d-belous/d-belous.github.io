@@ -3,13 +3,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #fee7d8;
     line-height: 1.6;
 }
 
 /* The Top Panel Styling */
 .navbar {
-    background-color: #333; /* Dark Grey */
+    background-color: #30321c; /* Dark Grey */
     overflow: hidden;
     position: sticky;       /* Keeps the bar at the top when you scroll */
     top: 0;
