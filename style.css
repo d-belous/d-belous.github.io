@@ -31,7 +31,7 @@ body {
 /* Change color when you hover over links */
 .navbar a:hover {
     background-color: #4a4b2f;
-    color: #00d4ff;
+    color: #feebca;
 }
 
 /* Spacing for the content below the bar */
