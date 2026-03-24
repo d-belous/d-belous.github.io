@@ -7,60 +7,32 @@ body {
     line-height: 1.6;
 }
 
-/* The Top Panel Styling */
+
+
 .navbar {
-    background-color: #482216; /* Deep Brown */
-    position: sticky;
-    top: 0;
-    width: 100%;
     display: flex;
-    justify-content: space-between; 
-    align-items: center;            
-    padding: 0 40px;                
-    box-sizing: border-box;         
+    justify-content: space-between; /* Pushes links left, socials right */
+    align-items: center;            /* Centers them vertically */
+    background-color: #482216;
+    padding: 0 20px;
 }
 
-/* Styling the links inside the bar */
-.navbar a {
-    display: flex;
-    color: white;
-    list-style: none;
-    padding: 14px 20px;
-    text-decoration: none; /* Removes the underline */
-    font-weight: bold;
-}
-
-/* Change color when you hover over links */
-.navbar a:hover {
-    background-color: #613122;
-    color: #feebca;
-}
-
-/* Spacing for the content below the bar */
-h1, h2, p {
-    padding: 20px;
-    text-align: center;
+/* Add this to fix the column issue on the left */
+.nav-links {
+    display: flex; 
+    flex-direction: row; 
 }
 
 .social-links ul {
     display: flex;
     list-style: none;
-    gap: 20px;
-    margin: 0;      /* Removes default browser spacing */
-    padding: 0;     /* Removes default browser spacing */
+    margin: 0;
+    padding: 0;
+    gap: 20px; /* Adjust spacing between socials */
 }
 
-/* Ensure the social links look like the main nav links */
-.social-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 14px 10px; /* Matches the vertical padding of your main links */
-    transition: 0.3s;
-}
-
-.social-links a:hover {
-    background-color: #613122;
-    color: #feebca;
-    opacity: 1; /* Reset the opacity if you want them to match the main links exactly */
+/* Ensure the links don't have block display if they are inside the flex div */
+.navbar a {
+    display: inline-block; /* Changed from block to inline-block */
+    padding: 14px 20px;
 }
