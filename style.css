@@ -24,7 +24,7 @@ body {
 .navbar a {
     display: flex;
     color: white;
-    text-align: center;
+    list-style: none;
     padding: 14px 20px;
     text-decoration: none; /* Removes the underline */
     font-weight: bold;
