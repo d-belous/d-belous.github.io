@@ -22,7 +22,7 @@ body {
 
 /* Styling the links inside the bar */
 .navbar a {
-    display: block;
+    display: flex;
     color: white;
     text-align: center;
     padding: 14px 20px;
