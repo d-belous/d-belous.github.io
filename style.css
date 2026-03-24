@@ -16,6 +16,30 @@ body {
     background-color: #482216;
     padding: 0 20px;
 }
+.navbar a {
+
+    display: block;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 14px 20px;
+
+    text-decoration: none; /* Removes the underline */
+
+    font-weight: bold;
+
+}
+
+.navbar a:hover {
+
+    background-color: #613122;
+
+    color: #feebca;
+
+}
+
 
 /* Add this to fix the column issue on the left */
 .nav-links {
@@ -35,4 +59,11 @@ body {
 .navbar a {
     display: inline-block; /* Changed from block to inline-block */
     padding: 14px 20px;
+}
+
+
+.social-links a:hover {
+    background-color: #613122;
+    color: #feebca;
+    opacity: 1; /* Reset the opacity if you want them to match the main links exactly */
 }
