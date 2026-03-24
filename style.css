@@ -9,7 +9,7 @@ body {
 
 /* The Top Panel Styling */
 .navbar {
-    background-color: #908660; /* Dark Grey */
+    background-color: #482216; /* Dark Grey */
     overflow: hidden;
     position: sticky;       /* Keeps the bar at the top when you scroll */
     top: 0;
