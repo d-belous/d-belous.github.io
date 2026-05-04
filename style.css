@@ -67,3 +67,39 @@ body {
     color: #feebca;
     opacity: 1; /* Reset the opacity if you want them to match the main links exactly */
 }
+
+/* the card for the blog, lets see */
+.blog-card {
+  /* The Box */
+  background-color: #ffffff;
+  border-radius: 12px; /* Slightly rounded edges */
+  padding: 20px;
+  margin: 20px 0;
+  
+  /* The Shadow: Horizontal, Vertical, Blur, Spread, Color */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  
+  max-width: 600px; /* Optional: keeps the box from getting too wide */
+}
+
+.blog-title {
+  margin: 0 0 10px 0;
+  font-weight: 700; /* Makes the title "more bold" */
+  font-family: sans-serif;
+  color: #333;
+}
+
+.separator {
+  border: 0;
+  border-top: 1px solid #ddd; /* The thin line */
+  margin: 0 1cm 15px 1cm; /* 1cm gap from left and right */
+}
+
+.blog-text {
+  font-weight: 400; /* Standard weight */
+  line-height: 1.6;
+  color: #555;
+  font-family: sans-serif;
+}
+
+/* end of the card */
