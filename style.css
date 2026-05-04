@@ -78,7 +78,9 @@ body {
 
   /* The Fix: Change width to 90% and use 'auto' for margins */
   width: 90%; 
-  margin: 20px auto; /* This centers the box, leaving 5% space on both sides */
+  margin-left: 5%; /* Forces a specific 5% gap on the left */
+  margin-top: 20px;
+  margin-bottom: 20px;
   
   /* Optional: prevent the box from becoming massive on huge monitors */
   max-width: 1200px; 
