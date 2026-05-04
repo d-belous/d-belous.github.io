@@ -78,12 +78,12 @@ body {
 
   /* The Fix: Change width to 90% and use 'auto' for margins */
   width: 90%; 
-  margin-left: 5%; /* Forces a specific 5% gap on the left */
+  margin-left: 4%; /* Forces a specific 5% gap on the left */
   margin-top: 20px;
   margin-bottom: 20px;
   
   /* Optional: prevent the box from becoming massive on huge monitors */
-  max-width: 1200px; 
+  max-width: 1500px; 
 }
 
 .blog-title {
