@@ -1,10 +1,16 @@
 /* Basic Page Setup */
 body {
-    font-family: sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.7; 
+    color: #2d3436; 
     margin: 0;
     padding: 0;
     background-color: #e6e2db;
     line-height: 1.6;
+}
+
+h1 {
+  letter-spacing: -1px; 
 }
 
 
@@ -13,9 +19,16 @@ body {
     display: flex;
     justify-content: space-between; /* Pushes links left, socials right */
     align-items: center;            /* Centers them vertically */
-    background-color: #482216;
+    background-color: rgba(45, 30, 20, 0.9); /* Your brown, but slightly transparent */
+    backdrop-filter: blur(10px); /* Blurs background behind the nav */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     padding: 0 20px;
 }
+
+
+
 .navbar a {
 
     display: block;
