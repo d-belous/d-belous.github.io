@@ -147,3 +147,42 @@ h1 {
   transform: translateX(10px); 
   background: #fdfaf8;
 }
+
+/* MAte counter */
+.mate-counter {
+  /* Same style as blog card */
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+
+  /* Position on the right */
+  position: fixed;
+  right: 20px;
+  top: 100px; /* Adjust this to sit below your navbar */
+  width: 120px;
+  z-index: 999; /* Keeps it above other content */
+}
+
+.counter-title {
+  margin: 0 0 8px 0;
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: #333;
+}
+
+.counter-separator {
+  border: 0;
+  border-top: 1px solid #ddd;
+  /* Proportional gap like your blog posts */
+  margin: 0 10% 10px 10%; 
+}
+
+.counter-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #5d4037; /* Using your brown accent color */
+}
