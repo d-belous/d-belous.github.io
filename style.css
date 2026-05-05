@@ -20,7 +20,7 @@ h1 {
   gap: 40px; /* Space between the main text and the counter */
   max-width: 1200px;
   margin: 0 auto; /* Centers the whole layout on the screen */
-  padding: 20px;
+  padding: 20px 80px;
 }
 
 .navbar {
@@ -211,7 +211,7 @@ h1 {
   object-fit: cover; 
   border-radius: 50%; 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-left: auto; 
+  margin-left: 50px; 
 }
 
 .about-text {
