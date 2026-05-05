@@ -13,7 +13,15 @@ h1 {
   letter-spacing: -1px; 
 }
 
-
+.page-layout {
+  display: grid;
+  /* Column 1 is 'flexible' (1fr), Column 2 is exactly 160px */
+  grid-template-columns: 1fr 200px; 
+  gap: 40px; /* Space between the main text and the counter */
+  max-width: 1200px;
+  margin: 0 auto; /* Centers the whole layout on the screen */
+  padding: 20px;
+}
 
 .navbar {
     display: flex;
