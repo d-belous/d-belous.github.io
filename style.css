@@ -121,3 +121,19 @@ h1 {
 }
 
 /* end of the card */
+
+/* funny hover effect, check if i even like it */
+ul { list-style: none; padding: 0; }
+li {
+  background: white;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border-left: 5px solid #5d4037; /* A subtle "brand" color accent */
+  transition: transform 0.2s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+li:hover {
+  transform: translateX(10px); /* Moves slightly when hovered */
+  background: #fdfaf8;
+}
