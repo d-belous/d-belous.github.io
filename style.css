@@ -163,7 +163,7 @@ h1 {
   position: fixed;
   right: 20px;
   top: 100px; /* Adjust this to sit below your navbar */
-  width: 120px;
+  width: 200px;
   z-index: 999; /* Keeps it above other content */
 }
 
