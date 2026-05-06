@@ -15,11 +15,15 @@ h1 {
 
 .page-layout {
   display: grid;
+
+  
   /* Column 1 is 'flexible' (1fr), Column 2 is exactly 160px */
-  grid-template-columns: 1fr 200px; 
-  gap: 40px; /* Space between the main text and the counter */
+  grid-template-columns: minmax(0, 1fr) 180px; 
+  gap: 30px;
+  width: 95%; /* Keeps it near the edges but not touching */
+  margin: 0 auto; /* Centers the whole structure */
+  align-items: start; /* Keeps the sidebar at the top */
   max-width: 1600px;
-  margin: 0 auto; /* Centers the whole layout on the screen */
   padding: 20px 80px;
 }
 
@@ -128,6 +132,17 @@ h1 {
   font-family: sans-serif;
 }
 
+.about-text, main p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal; /* Forces the text to wrap to the next line */
+  line-height: 1.6;
+}
+
+main {
+  overflow: hidden; /* Prevents the main area from bleeding into the sidebar */
+}
+
 
 
 /* end of the card */
@@ -168,7 +183,7 @@ h1 {
   text-align: center;
 
   /* Position on the right */
-  position: fixed;
+  position: sticky; 
   right: 20px;
   top: 100px; /* Adjust this to sit below your navbar */
   width: 200px;
