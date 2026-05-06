@@ -18,7 +18,7 @@ h1 {
   /* Column 1 is 'flexible' (1fr), Column 2 is exactly 160px */
   grid-template-columns: 1fr 200px; 
   gap: 40px; /* Space between the main text and the counter */
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto; /* Centers the whole layout on the screen */
   padding: 20px 80px;
 }
